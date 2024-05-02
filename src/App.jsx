@@ -11,7 +11,7 @@ function App() {
   const apiKey = "Your APi Key";
 
   const handleSearch = () => {
-    console.log("handleSearch clicked");
+    
     const api = `https://gnews.io/api/v4/search?q=${searchValue}&lang=en&apikey=${apiKey}`;
     fetch(api)
       .then((response) => {
