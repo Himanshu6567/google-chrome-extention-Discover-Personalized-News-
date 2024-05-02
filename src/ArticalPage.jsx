@@ -5,7 +5,7 @@ import Loading from "./Loading";
 function News() {
   const apiKey = "Your APi Key";
 
-  const maxResults = 5;
+  const maxResults = 10;
   const [newsItems, setNewsItems] = useState([]);
   const [loading, setLoading] = useState(true);
 
