@@ -1,0 +1,11 @@
+{
+  "name": "the news article",
+  "version": "0.0.1",
+  "description": "Get the latest tech news",
+  "manifest_version": 3,
+  "chrome_url_overrides": {
+    "newtab": "index.html",
+    "default_icon": "./public/image.png"
+  },
+  "permissions": ["history", "tabs"]
+}

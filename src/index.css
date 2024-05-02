@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  outline: none;
+}
+
+.heading {
+  position: relative;
+  animation: mymove 10s infinite;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 990px;
+  }
+}
